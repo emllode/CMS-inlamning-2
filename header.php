@@ -8,3 +8,11 @@
     <? wp_head(); ?>
 </head>
 <body>
+    <div class="container">
+        <?php 
+            wp_nav_menu(
+            array(
+                'menu' => 'primary',
+            ));
+        ?>
+    </div>
